@@ -1,0 +1,64 @@
+
+/*____________tutor Card_____*/
+
+.tutorCard {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Container .items {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 5px 10px 25px 10px rgb(0 0 0 / 6%);
+  text-align: center;
+  margin-left: 30px;
+  
+}
+.Container .items .img {
+  width: 100%;
+  height: 55%;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+.Container .text {
+  padding: 20px 10px;
+}
+.Container .text h1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+.Container :hover {
+  color: #1eb2a6;
+  cursor: pointer;
+}
+
+.Container p {
+  color: grey;
+}
+
+
+/*-------------online---------*/
+@media screen and (max-width: 768px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .coursesCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .awrapper{
+    width: 120vw;
+    height: 20vh;
+  }
+}
